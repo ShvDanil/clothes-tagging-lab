@@ -1,0 +1,14 @@
+.git
+.env
+.env.*
+.venv
+**/__pycache__
+.pytest_cache
+.ruff_cache
+data/images
+data/source_metadata
+data/private
+data/releases
+artifacts/raw
+*.ipynb
+.DS_Store

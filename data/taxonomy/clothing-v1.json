@@ -1,0 +1,430 @@
+{
+  "version": "clothing-v1",
+  "prepared_at": "2026-11-07",
+  "source": {
+    "name": "Ximilar Fashion Taxonomy",
+    "documentation": "https://docs.ximilar.com/taxonomy/fashion",
+    "json_url": "https://docs.ximilar.com/docs/fashion-taxonomy.json",
+    "snapshot_sha256": "588e3dea8e93d4ed62346b09302e4aaf93c81f0bfef3aca039b61d70785b31da",
+    "snapshot_origin": "Provided by the organizer; upstream publication date unknown"
+  },
+  "notes": [
+    "Category and value labels are unchanged from the provided source snapshot.",
+    "Unknown and not_applicable are annotation states, not additional fashion classes.",
+    "Original not visible values are retained for traceability; normalize to unknown in gold labels.",
+    "Subcategory is optional and excluded from the required comparison."
+  ],
+  "categories": {
+    "Clothing/Upper": {
+      "attributes": {
+        "Color": [
+          "brown",
+          "yellow",
+          "multicolor",
+          "silver",
+          "black",
+          "purple and violet",
+          "orange",
+          "green",
+          "dark blue and navy",
+          "golden",
+          "turquoise",
+          "red",
+          "light blue",
+          "grey",
+          "pink",
+          "beige",
+          "white"
+        ],
+        "Design": [
+          "picture",
+          "melange",
+          "shiny",
+          "lace",
+          "plain",
+          "patterned",
+          "logo",
+          "text"
+        ],
+        "Pattern": [
+          "floral",
+          "camouflage",
+          "polka dot",
+          "checked",
+          "other",
+          "chevron",
+          "stripe",
+          "animalistic",
+          "geometric & abstract"
+        ],
+        "Sleeves": [
+          "3/4 sleeves",
+          "short sleeves",
+          "one sleeve",
+          "long sleeves",
+          "sleeveless"
+        ],
+        "Hood": [
+          "not visible",
+          "hood",
+          "no hood"
+        ]
+      },
+      "optional_attributes": {
+        "Subcategory": [
+          "cropped blouse",
+          "knitted vests",
+          "sweatshirts",
+          "shirts",
+          "bardot tops",
+          "crop tops",
+          "tunics",
+          "hoodies",
+          "sweaters",
+          "knitted tops",
+          "tops",
+          "cardigans",
+          "blouses",
+          "denim shirt",
+          "wrap tops",
+          "tank tops",
+          "shell tops",
+          "transparent tops",
+          "t-shirts",
+          "polo-shirts",
+          "vests"
+        ]
+      }
+    },
+    "Clothing/Pants": {
+      "attributes": {
+        "Color": [
+          "brown",
+          "multicolor",
+          "yellow",
+          "dark blue and navy",
+          "turquoise",
+          "golden",
+          "red",
+          "light blue",
+          "silver",
+          "grey",
+          "black",
+          "purple and violet",
+          "orange",
+          "pink",
+          "green",
+          "beige",
+          "white"
+        ],
+        "Design": [
+          "picture",
+          "melange",
+          "shiny",
+          "lace",
+          "plain",
+          "patterned",
+          "logo",
+          "text"
+        ],
+        "Pattern": [
+          "floral",
+          "camouflage",
+          "polka dot",
+          "checked",
+          "other",
+          "chevron",
+          "stripe",
+          "animalistic",
+          "geometric & abstract"
+        ]
+      },
+      "optional_attributes": {
+        "Subcategory": [
+          "leather shorts",
+          "suit trousers",
+          "denim shorts",
+          "beach pants",
+          "casual leggings",
+          "casual trousers",
+          "leather leggings",
+          "sportswear leggings",
+          "hotpants",
+          "swim shorts",
+          "leather trousers",
+          "jeans",
+          "leggings",
+          "cargo",
+          "casual shorts",
+          "culottes",
+          "sweat pants",
+          "sportswear shorts",
+          "formal trousers"
+        ]
+      }
+    },
+    "Clothing/Skirts": {
+      "attributes": {
+        "Color": [
+          "brown",
+          "multicolor",
+          "yellow",
+          "dark blue and navy",
+          "turquoise",
+          "golden",
+          "red",
+          "light blue",
+          "silver",
+          "grey",
+          "black",
+          "purple and violet",
+          "orange",
+          "pink",
+          "green",
+          "beige",
+          "white"
+        ],
+        "Design": [
+          "picture",
+          "melange",
+          "shiny",
+          "lace",
+          "plain",
+          "patterned",
+          "logo",
+          "text"
+        ],
+        "Pattern": [
+          "floral",
+          "camouflage",
+          "polka dot",
+          "checked",
+          "other",
+          "chevron",
+          "stripe",
+          "animalistic",
+          "geometric & abstract"
+        ]
+      },
+      "optional_attributes": {
+        "Subcategory": [
+          "tiered skirts",
+          "leather skirts",
+          "pleated skirts",
+          "tutu skirts",
+          "casual skirts",
+          "a-line skirts",
+          "formal skirts",
+          "wrap skirts",
+          "pencil and straight skirts",
+          "sportswear skirts",
+          "beach skirts",
+          "mermaid skirts",
+          "denim skirts",
+          "balloon skirts"
+        ]
+      }
+    },
+    "Clothing/Dresses": {
+      "attributes": {
+        "Color": [
+          "brown",
+          "yellow",
+          "multicolor",
+          "silver",
+          "black",
+          "purple and violet",
+          "orange",
+          "green",
+          "dark blue and navy",
+          "turquoise",
+          "golden",
+          "red",
+          "light blue",
+          "grey",
+          "pink",
+          "beige",
+          "white"
+        ],
+        "Design": [
+          "picture",
+          "melange",
+          "shiny",
+          "lace",
+          "plain",
+          "patterned",
+          "logo",
+          "text"
+        ],
+        "Pattern": [
+          "floral",
+          "camouflage",
+          "polka dot",
+          "checked",
+          "other",
+          "chevron",
+          "stripe",
+          "animalistic",
+          "geometric & abstract"
+        ],
+        "Sleeves": [
+          "3/4 sleeves",
+          "short sleeves",
+          "one sleeve",
+          "long sleeves",
+          "sleeveless"
+        ]
+      },
+      "optional_attributes": {
+        "Subcategory": [
+          "blouse dresses",
+          "slip dress",
+          "fit & flare dresses",
+          "wrap dresses",
+          "knitted dresses",
+          "casual dresses",
+          "blazer dresses",
+          "bodycon dress",
+          "sheath dresses"
+        ]
+      }
+    },
+    "Clothing/Jackets and Coats": {
+      "attributes": {
+        "Color": [
+          "brown",
+          "yellow",
+          "multicolor",
+          "silver",
+          "black",
+          "purple and violet",
+          "orange",
+          "green",
+          "dark blue and navy",
+          "golden",
+          "turquoise",
+          "red",
+          "light blue",
+          "grey",
+          "pink",
+          "beige",
+          "white"
+        ],
+        "Design": [
+          "picture",
+          "melange",
+          "shiny",
+          "lace",
+          "plain",
+          "patterned",
+          "logo",
+          "text"
+        ],
+        "Pattern": [
+          "floral",
+          "camouflage",
+          "polka dot",
+          "checked",
+          "other",
+          "chevron",
+          "stripe",
+          "animalistic",
+          "geometric & abstract"
+        ],
+        "Hood": [
+          "not visible",
+          "hood",
+          "no hood"
+        ]
+      },
+      "optional_attributes": {
+        "Subcategory": [
+          "biker jacket",
+          "winter jackets",
+          "baseball jacket",
+          "racer jacket",
+          "puffer jackets",
+          "wool coats",
+          "windstoppers & softshells",
+          "raincoats and ponchos",
+          "peacoat",
+          "winter coats",
+          "trench coats",
+          "casual jackets",
+          "harrington jacket",
+          "parka coat",
+          "pilot jacket",
+          "suit jackets and tuxedos",
+          "bomber jacket",
+          "duffle coat",
+          "knitted ponchos",
+          "kimono coat"
+        ]
+      }
+    },
+    "Clothing/Overalls and Dungarees": {
+      "attributes": {
+        "Color": [
+          "brown",
+          "yellow",
+          "multicolor",
+          "silver",
+          "black",
+          "purple and violet",
+          "orange",
+          "green",
+          "dark blue and navy",
+          "turquoise",
+          "golden",
+          "red",
+          "light blue",
+          "grey",
+          "pink",
+          "beige",
+          "white"
+        ],
+        "Design": [
+          "picture",
+          "melange",
+          "shiny",
+          "lace",
+          "plain",
+          "patterned",
+          "logo",
+          "text"
+        ],
+        "Pattern": [
+          "floral",
+          "camouflage",
+          "polka dot",
+          "checked",
+          "other",
+          "chevron",
+          "stripe",
+          "animalistic",
+          "geometric & abstract"
+        ],
+        "Sleeves": [
+          "3/4 sleeves",
+          "short sleeves",
+          "one sleeve",
+          "long sleeves",
+          "sleeveless"
+        ],
+        "Hood": [
+          "not visible",
+          "hood",
+          "no hood"
+        ]
+      },
+      "optional_attributes": {
+        "Subcategory": [
+          "winter overalls",
+          "work overalls",
+          "casual overalls",
+          "elegant overalls"
+        ]
+      }
+    }
+  }
+}
